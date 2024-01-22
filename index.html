@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bài tập mảng</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <div class="container mx-auto w-75">
+            <h1 class="text-center">Bài tập buổi 7 - 8</h1>
+            <div class="mb-3">
+                <label for="soN" class="form-label">Nhập số</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="soN"
+                    aria-describedby="helpId"
+                    placeholder="Nhập số"
+                />
+            </div>
+            <div>
+                <p id="themSo" class="bg-info mb-3">Thêm số:</p>
+                <button id="btnThemSo" class="btn btn-dark mb-3">Thêm</button>
+            </div>
+            <!-- Câu 1------- -->
+            <div class="mt-3">
+                <h3>Tính tổng số dương</h3>
+                <p id="ketQua1" class="bg-light mb-3">Tổng</p>
+                <button id="btnKetQua1" class="btn btn-dark mb-3">Tính tổng</button>
+            </div>
+            <!--Câu 2 --------- -->
+            <div class="mt-3">
+                <h3>Đếm có bao nhiêu số dương trong mảng</h3>
+                <p id="ketQua2" class="bg-light mb-3">Tổng:</p>
+                <button id="btnKetQua2" class="btn btn-dark mb-3">Đếm</button>
+            </div>
+            <!--Câu 3 ------------ -->
+            <div class="mt-3">
+                <h3>Tìm số nhỏ nhất</h3>
+                <p id="ketQua3" class="bg-light mb-3">Min</p>
+                <button id="btnKetQua3" class="btn btn-dark mb-3">Tìm min</button>
+            </div>
+            <!--Câu 4 --------------- -->
+            <div class="mt-3">
+                <h3>Tìm số dương nhỏ nhất</h3>
+                <p id="ketQua4" class="bg-light mb-3">Min dương</p>
+                <button id="btnKetQua4" class="btn btn-dark mb-3">Tìm min dương</button>
+            </div>
+            <!--Câu 5 ------------ -->
+            <div class="mt-3">
+                <h3>Tìm số chẵn cuối cùng</h3>
+                <p id="ketQua5" class="bg-light mb-3">Tổng</p>
+                <button id="btnKetQua5" class="btn btn-dark mb-3">Tìm</button>
+            </div>
+            <!--Câu 6 -------------- -->
+            <div class="mt-3">
+                <h3>Đổi chỗ</h3>
+                <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="viTri1"
+                    aria-describedby="helpId"
+                    placeholder="Nhập vị trí 1"
+                />
+                <input
+                    type="text"
+                    class="form-control my-3"
+                    name=""
+                    id="viTri2"
+                    aria-describedby="helpId"
+                    placeholder="Nhập vị trí 2"
+                />
+                <p id="ketQua6" class="bg-light mb-3">Đổi chỗ</p>
+                <button id="btnKetQua6" class="btn btn-dark mb-3">Đổi chỗ</button>
+            </div>
+            <!--Câu 7 -------------- -->
+            <div class="mt-3">
+                <h3>Sắp xếp mảng theo thứ tự tăng dần</h3>
+                <p id="ketQua7" class="bg-light mb-3">Kết quả</p>
+                <button id="btnKetQua7" class="btn btn-dark mb-3">Sắp xếp</button>
+            </div>
+            <!-- Câu 8------------ -->
+            <div class="mt-3">
+                <h3>Tìm số nguyên tố</h3>
+                <p id="ketQua8" class="bg-light mb-3">Kết quả</p>
+                <button id="btnKetQua8" class="btn btn-dark mb-3">Tìm</button>
+            </div>
+            <!-- Câu 9--------------- -->
+            <div class="mt-3">
+                <h3>Tìm trong mảng có bao nhiêu số nguyên</h3>
+                <label for="num9" class="form-label">Nhập số</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="num9"
+                    aria-describedby="helpId"
+                    placeholder="Nhập số"
+                />
+                <p id="themSo9" class="bg-info mt-2">Thêm số:</p>
+                <button id="btnThemSo9" class="btn btn-dark">Thêm số</button>
+                <p id="ketQua9" class="bg-light mt-3">Kết quả</p>
+                <button id="btnKetQua9" class="btn btn-dark mb-3">Tìm</button>
+            </div>
+            <!-- Câu 10--------------- -->
+            <div class="mt-3">
+                <h3>So sánh số lượng số dương và số âm</h3>
+                <p id="ketQua10" class="bg-light mb-3">Kết quả</p>
+                <button id="btnKetQua10" class="btn btn-dark mb-3">Tìm</button>
+            </div>
+        </div>
+
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
